@@ -198,3 +198,37 @@ nav{
 .tropicals{
     background-image: url('../images/tropicals.jpg');
 }
+
+/* Footer Section Styles */
+#contact{
+    display:flex;
+    flex-wrap: wrap;
+    color:#fbfffb;
+    background-color: #266035;
+}
+#contact a, #contact h3{
+    color: #fbfffb;
+    text-align: left;
+}
+
+#contact h2, .bottom{
+    width: 100%;
+    color: #fbfffb;
+}
+.left, .right{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left div, .right img{
+    width: 60%;
+}
+
+.bottom{
+    text-align:right;
+    margin-right:10%;
+}
+
+/* Repsonsive Styles */
