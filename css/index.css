@@ -160,3 +160,41 @@ nav{
     width: 25%;
     margin-right: 10%;    
 }
+
+/* Shop Section Styles */
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.shoptxt, .bgimg{
+    width: 50%;
+}
+.shoptxt{
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 6% 4%;  
+    text-align: center;
+}
+.shoptxt div{
+    width: 65%;
+}
+
+.shoptxt div button{
+    margin-top: 5%;
+}
+
+.bgimg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.succulents{
+    background-image: url('../images/succulants.jpg');
+}
+.cacti{
+    background-image: url('../images/cacti.jpg');    
+}
+.tropicals{
+    background-image: url('../images/tropicals.jpg');
+}
